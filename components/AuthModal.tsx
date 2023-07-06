@@ -27,7 +27,7 @@ export default function AuthModal() {
 
   return (
     <Modal title="Welcome" description="Login to your account" isOpen={isOpen} onChange={onChange}>
-        <Auth providers={['github']} magicLink supabaseClient={supabaseClient} theme="dark" appearance={{ theme: ThemeSupa, variables: { default: { colors: { brand: '#404040', brandAccent: '#22c55e' }}}}} />
+        <Auth providers={[]} magicLink supabaseClient={supabaseClient} theme="dark" appearance={{ theme: ThemeSupa, variables: { default: { colors: { brand: '#404040', brandAccent: '#22c55e' }}}}} />
     </Modal>
   )
 }
